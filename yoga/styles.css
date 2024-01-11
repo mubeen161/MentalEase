@@ -1,0 +1,153 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.intro-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2rem;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #d12f00;
+}
+
+.yoga-type {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.yoga-type:nth-child(even) .video-container {
+    order: 1;
+}
+
+.video-container {
+    margin-top: 20px;
+    order: 2;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%; /* Full height for full screen visibility */
+    border: none;
+}
+
+.yoga-info {
+    flex: 1;
+}
+
+.yoga-type.hatha-yoga {
+    flex-direction: row;
+}
+
+.yoga-type.vinyasa-yoga {
+    flex-direction: row-reverse;
+}
+
+.yoga-type.mindfulness-yoga {
+    flex-direction: row;
+}
+
+.yoga-type.pranayama {
+    flex-direction: row-reverse;
+}
+
+.yoga-type.meditation-yoga {
+    flex-direction: row;
+}
+
+.yoga-type.yoga-nidra {
+    flex-direction: row-reverse;
+}
+
+.yoga-type.gentle-therapeutic-yoga {
+    flex-direction: row;
+}
+
+.conclusion-section {
+    background-color: #438a49;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.conclusion-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #6e1919;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+}
